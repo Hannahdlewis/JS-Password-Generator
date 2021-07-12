@@ -44,3 +44,7 @@ while (i<passwordLength) {
   passwordArray.push(randomChar);
   i++;
 }
+
+// Password being returned to the function call in the form of a string
+// This requires a conversion from an array to a string
+
