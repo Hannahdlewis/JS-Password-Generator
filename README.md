@@ -21,5 +21,5 @@ Please make sure to update tests as appropriate.
 
 ## Support
 
-If you have any questions
+If you have any questions, or would like to collaborate on a project, please
 
