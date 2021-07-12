@@ -15,7 +15,6 @@ No installation is needed for this web application.
 
 Please see below listed link for access to this web application.
 
-
 ```bash
 http://127.0.0.1:5500/JS-Password-Generator/index.html
 ```
