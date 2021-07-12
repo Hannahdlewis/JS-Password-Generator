@@ -15,5 +15,5 @@ Please see below listed link for access to this web application.
 
 ## Contributing
 
-Pull requests
+Pull requests are welcome.
 
