@@ -6,4 +6,7 @@ Javascript (JS) password generator is a web applicatoin that was modified to cre
 
 ## Installation
 
+No installation is needed for this web application. 
+
+##
 
