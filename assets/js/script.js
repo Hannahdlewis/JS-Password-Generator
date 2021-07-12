@@ -25,11 +25,14 @@ generateBtn.addEventListener("click", writePassword);
 //between 8 and 128 characters
 
 var passwordLength = 0;
-passwordLength = prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters: ')
+passwordLength = prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters: ');
 passwordLength = parseInt(passwordLength)
 
 //Continue to ask the question if user fails to meet password length criteria
 
 while (passwordLength <8 || passwordLength > 128) {
-  passwordLength = prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters: ')
+  passwordLength = prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters: ');
 }
+
+// PasswordArray created by running a random selector over the password character selelction array
+// in a loop of the password length
