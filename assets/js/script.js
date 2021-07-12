@@ -12,9 +12,17 @@ function writePassword() {
 
 // when you click on the button it prompts you to..
 
-// <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>generatePassword</button>
+<button type="button" onclick='document.getElementById("generate").innerHTML = "Hello JavaScript!"'>generatePassword</button>
 
 
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
+
+// use a prompt to determine the lenfth of the password
+//between 8 and 128 characters
+
+var passwordLength = 0;
+passwordLength = prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters')
