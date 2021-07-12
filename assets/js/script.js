@@ -42,4 +42,5 @@ var i = 0;
 while (i<passwordLength) {
   var randomChar = passCharSelectionArray[Math.floor(Math.random()*passCharSelectionArray.length)];
   passwordArray.push(randomChar);
+  i++;
 }
