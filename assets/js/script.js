@@ -58,7 +58,7 @@ return passwordString;{
 
 function getUserChoice(characterSet) {
 // promt user to determine if using character set
-  var userChoice = prompt('Do you wish for your password to contain' + characterSet + '? Please enter "Y" OR "N"');
+  var userChoice = prompt('Do you wish for your password to contain ' + characterSet + '? Please enter "Y" OR "N"');
 }
 
 function checkUserChoice(checkChoice, characterSet) {
