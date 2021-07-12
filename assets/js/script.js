@@ -10,5 +10,11 @@ function writePassword() {
 
 }
 
+// when you click on the button it prompts you to..
+
+// <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>generatePassword</button>
+
+
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
