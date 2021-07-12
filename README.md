@@ -6,7 +6,7 @@ Javascript (JS) password generator is a web applicatoin that was modified from s
 
 ## Usage
 
-This web app enables employees to generate random secure passwords based on a set of criteria. User will be given a series of prompts and will need to select which criteria they would like to include in thier newly generated secured password.
+This web app enables users to generate random secure passwords based on a set of criteria. User will need to select a unique passworkbe given a series of prompts and will need to select which criteria they would like to include in thier newly generated secured password.
 
 
 ## Installation
