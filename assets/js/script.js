@@ -48,3 +48,5 @@ while (i<passwordLength) {
 // Password being returned to the function call in the form of a string
 // This requires a conversion from an array to a string
 
+var passwordstring = passwordArray.join("");
+
