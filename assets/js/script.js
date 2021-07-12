@@ -40,6 +40,6 @@ while (passwordLength <8 || passwordLength > 128) {
 var passwordArray = [];
 var i = 0;
 while (i<passwordLength) {
-  var randomChar = passCharSelectionArray[Math.floor(Math.random()passCharSelectionArray.length)];
+  var randomChar = passCharSelectionArray[Math.floor(Math.random()*passCharSelectionArray.length)];
   passwordArray.push(randomChar);
 }
