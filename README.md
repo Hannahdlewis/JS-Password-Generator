@@ -2,7 +2,7 @@
 
 ## Description
 
-Javascript (JS) password generator is a web applicatoin that was modified from starter code, in order to create an application that enables potential users to generate random passwords based on criteria that they've slected.
+Javascript (JS) password generator is a web applicatoin that was modified from starter code, in order to create an application that enables potential users to generate random passwords based on criteria that they've slected, through a series of prompts.
 
 ## Usage
 
