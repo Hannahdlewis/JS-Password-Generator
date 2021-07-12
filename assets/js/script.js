@@ -55,3 +55,7 @@ var passwordString = passwordArray.join("");
 return passwordString;{
 
 }
+
+function checkUserChoice(checkChoice, characterSet) {
+  while (userChoice = prompt('You must enter "Y"'))
+}
