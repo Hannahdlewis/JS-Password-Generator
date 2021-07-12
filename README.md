@@ -15,5 +15,6 @@ Please see below listed link for access to this web application.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 
