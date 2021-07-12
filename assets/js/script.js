@@ -36,3 +36,9 @@ while (passwordLength <8 || passwordLength > 128) {
 
 // PasswordArray created by running a random selector over the password character selelction array
 // in a loop of the password length
+
+var passwordArray = [];
+var i = 0;
+while (i,passwordLength) {
+  
+}
