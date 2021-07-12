@@ -52,4 +52,6 @@ var passwordString = passwordArray.join("");
 
 // output password
 
-return passwordString
+return passwordString;{
+
+}
