@@ -29,3 +29,5 @@ passwordLength = prompt('Please select a password length with a minimum of 8 cha
 passwordLength = parseInt(passwordLength)
 
 //Continue to ask the question if user fails to meet password length criteria
+
+while (passwordLength <8 || passwordLength > 128)
