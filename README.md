@@ -6,7 +6,7 @@ Javascript (JS) password generator is a web applicatoin that was modified from s
 
 ## Usage
 
-This web app enables users to generate random secure passwords based on a set of criteria. User will need to select a unique password, through a series of prompts and will need to select which criteria they would like to include in thier newly generated secured password. Password length must be a minimum of 8 characters and no more than 128 characters.
+This web app enables users to generate random secure passwords based on a set of criteria. User will need to select a unique password through a series of prompts. User will then need to select which criteria they would like to include in thier newly generated secured password, through the prompts provided. User will need to select a password that is a minimum of 8 characters and no more than 128 characters.
 
 
 ## Installation
