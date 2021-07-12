@@ -8,5 +8,5 @@ Javascript (JS) password generator is a web applicatoin that was modified from s
 
 No installation is needed for this web application. 
 
-##
+## Access to web application
 
