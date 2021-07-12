@@ -26,3 +26,4 @@ generateBtn.addEventListener("click", writePassword);
 
 var passwordLength = 0;
 passwordLength = prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters')
+passwordLength = parseInt(passwordLength)
