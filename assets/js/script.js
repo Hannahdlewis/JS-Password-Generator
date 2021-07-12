@@ -50,3 +50,4 @@ while (i<passwordLength) {
 
 var passwordstring = passwordArray.join("");
 
+// output password
