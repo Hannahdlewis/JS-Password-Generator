@@ -13,6 +13,8 @@ function writePassword() {
 // Added event Listener to genterate button
 generateBtn.addEventListener("click", writePassword);
 
+var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
 // Array of options for user to pick from
 
 var options = ["A"]
