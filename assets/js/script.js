@@ -18,6 +18,9 @@ var lower = 'abcdefghijklmnopqrstuvwxyz';
 var num = '0123456789';
 var sym = '!@#$%&*()+=?/';
 
+function generatePassword() {
+  
+}
 
 
 
