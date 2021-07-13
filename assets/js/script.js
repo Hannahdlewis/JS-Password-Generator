@@ -10,6 +10,12 @@ function writePassword() {
 
 }
 
+
+// Array of options for user to pick from
+
+var options = ["A"]
+
+
 // when you click on the button it prompts you to..
 
 <button type="button" onclick='document.getElementById("generate").innerHTML = "Hello JavaScript!"'>generatePassword</button>
@@ -59,6 +65,7 @@ return passwordString;{
 function getUserChoice(characterSet) {
 // promt user to determine if using character set
   var userChoice = prompt('Do you wish for your password to contain ' + characterSet + '? Please enter "Y" OR "N"');
+
 }
 
 function checkUserChoice(checkChoice, characterSet) {
