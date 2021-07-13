@@ -19,7 +19,7 @@ var num = '0123456789';
 var sym = '!@#$%&*()+=?/';
 
 function generatePassword() {
-  
+  let passwordLength = window.prompt('Please choose the length of your password between 8 and 128 characters')
 }
 
 
