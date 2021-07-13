@@ -10,6 +10,8 @@ function writePassword() {
 
 }
 
+// Added event Listener to genterate button
+generateBtn.addEventListener("click", writePassword);
 
 // Array of options for user to pick from
 
