@@ -16,6 +16,8 @@ generateBtn.addEventListener("click", writePassword);
 var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var lower = 'abcdefghijklmnopqrstuvwxyz';
 var num = '0123456789';
+var sym = '!@#$%&*()+=?/';
+
 
 
 
