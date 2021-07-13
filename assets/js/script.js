@@ -20,6 +20,13 @@ var sym = '!@#$%&*()+=?/';
 
 function generatePassword() {
   let passwordLength = window.prompt('Please choose the length of your password between 8 and 128 characters')
+
+  passwordLength = parseInt
+
+  if(passwordLength < 8 || passwordLength >129) {
+    console.log(passwordLength);
+    
+  }
 }
 
 
