@@ -25,7 +25,9 @@ function generatePassword() {
 
   if(passwordLength < 8 || passwordLength > 129) {
     console.log(passwordLength);
-
+  }
+  else if(passwordLength> 8 || passwordLength < 128) {
+    alert("Password must contain a minimum of 8 characters and a maximum of 128 characters")
   }
 }
 
