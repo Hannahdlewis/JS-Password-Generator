@@ -33,11 +33,6 @@ function generatePassword() {
 
 
 
-// Array of options for user to pick from
-
-var options = ["A"]
-
-
 // when you click on the button it prompts you to..
 
 <button type="button" onclick='document.getElementById("generate").innerHTML = "Hello JavaScript!"'>generatePassword</button>
