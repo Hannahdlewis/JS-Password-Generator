@@ -14,6 +14,8 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var lower = 'abcdefghijklmnopqrstuvwxyz';
+
 
 // Array of options for user to pick from
 
