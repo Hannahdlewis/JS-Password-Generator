@@ -23,9 +23,9 @@ function generatePassword() {
 
   passwordLength = parseInt
 
-  if(passwordLength < 8 || passwordLength >129) {
+  if(passwordLength < 8 || passwordLength > 129) {
     console.log(passwordLength);
-    
+
   }
 }
 
