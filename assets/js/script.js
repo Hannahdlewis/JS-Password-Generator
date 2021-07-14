@@ -9,7 +9,7 @@ function writePassword() {
   passwordText.value = password;
 }
 
-var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; 
 var lower = 'abcdefghijklmnopqrstuvwxyz';
 var num = '0123456789';
 var sym = '!@#$%&*()+=?/';
@@ -31,12 +31,7 @@ function generatePassword() {
 
 // when you click on the button it prompts you to..
 
-<button type="button" onclick='document.getElementById("generate").innerHTML = "Hello JavaScript!"'>generatePassword</button>
-
-
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+// {<button type="button" onclick='document.getElementById("generate").innerHTML = "Hello JavaScript!"'>generatePassword</button> */}
 
 
 
@@ -71,16 +66,20 @@ var passwordString = passwordArray.join("");
 
 // output password
 
-return passwordString;{
+// return passwordString;{
 
-}
+// }
+
 
 function getUserChoice(characterSet) {
-// promt user to determine if using character set
+  // promt user to determine if using character set
   var userChoice = prompt('Do you wish for your password to contain ' + characterSet + '? Please enter "Y" OR "N"');
-
+  
 }
 
-function checkUserChoice(checkChoice, characterSet) {
-  while (userChoice = prompt('You must enter "Y"'))
-}
+// function checkUserChoice(checkChoice, characterSet) {
+  //   while (userChoice = prompt('You must enter "Y"'))
+  // }
+  
+  // Add event listener to generate button
+  generateBtn.addEventListener("click", writePassword);
