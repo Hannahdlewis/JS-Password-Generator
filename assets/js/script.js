@@ -29,6 +29,7 @@ function generatePassword() {
   }
 
 // asks user if they'd like specific groups of characters
+
   var confirmUpper = confirm("would you like uppercase letters?")
   var confirmLower = confirm("would you like lowercase letters?")
   var confirmNum = confirm("would you like numbers?")
