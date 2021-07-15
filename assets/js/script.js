@@ -9,42 +9,54 @@ function writePassword() {
   passwordText.value = password;
 }
 
-var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; 
+var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var lower = 'abcdefghijklmnopqrstuvwxyz';
 var num = '0123456789';
 var sym = '!@#$%&*()+=?/';
 
 function generatePassword() {
-var passwordLength = 0;
-console.log("hello")
+  var passwordLength = 0;
+  console.log("hello")
 
-while (passwordLength <8 || passwordLength > 128) {
-  passwordLength = parseInt(prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters: '));
-  
-   if(passwordLength < 8 || passwordLength > 128) {
-    alert("Password must contain a minimum of 8 characters and a maximum of 128 characters")
+  while (passwordLength < 8 || passwordLength > 128) {
+    passwordLength = parseInt(prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters: '));
+
+    if (passwordLength < 8 || passwordLength > 128) {
+      alert("Password must contain a minimum of 8 characters and a maximum of 128 characters")
+    }
+  }
+
+
+  var confirmUpper = confirm("would you like uppercase letters?")
+  var confirmLower = confirm("would you like lowercase letters?")
+  var confirmNum = confirm("would you like numbers?")
+  var confirmSym = confirm("would you like symbols?")
+
+  var passwordOption = "";
+
+  if (confirmUpper) {
+    passwordOption += upper
+  }
+
+  if (confirmLower) {
+    passwordOption += lower
+  }
+
+  if (confirmNum) {
+    passwordOption += num
+  }
+
+  if (confirmSym) {
+    passwordOption += sym
+  }
+
+  var password = ""
+  for(var i = 0; i < passwordLength; i ++){
+    
+
   }
 }
 
-
-var confirmUpper = confirm("would you like uppercase letters?")
-var confirmLower= confirm("would you like lowercase letters?")
-var confirmNum = confirm("would you like numbers?")
-var confirmSym = confirm("would you like symbols?")
-
-var passwordOption = "";
-
-if(confirmUpper) {
-passwordOption =+ upper
-}
-
-if(confirmLower) {
-passwordOption =+ lower
-}
-
-
-}
- 
 
 
 // when you click on the button it prompts you to..
@@ -90,12 +102,12 @@ passwordOption =+ lower
 function getUserChoice(characterSet) {
   // promt user to determine if using character set
   var userChoice = prompt('Do you wish for your password to contain ' + characterSet + '? Please enter "Y" OR "N"');
-  
+
 }
 
 // function checkUserChoice(checkChoice, characterSet) {
-  //   while (userChoice = prompt('You must enter "Y"'))
-  // }
-  
-  // Add event listener to generate button
-  generateBtn.addEventListener("click", writePassword);
+//   while (userChoice = prompt('You must enter "Y"'))
+// }
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
