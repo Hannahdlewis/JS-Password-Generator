@@ -52,7 +52,7 @@ function generatePassword() {
 
   var password = ""
   for(var i = 0; i < passwordLength; i ++){
-    
+  password += passwordOption.indexOf()
 
   }
 }
