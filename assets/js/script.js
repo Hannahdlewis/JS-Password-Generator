@@ -53,6 +53,8 @@ function generatePassword() {
     passwordOption += sym
   }
 
+  // returns random password based off user's selcted criteria in window
+  
   var password = ""
   for(var i = 0; i < passwordLength; i ++){
   password += passwordOption.charAt(Math.floor(Math.random()*passwordOption.length))
