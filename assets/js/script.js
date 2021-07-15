@@ -19,7 +19,7 @@ var sym = '!@#$%&*()+=?/';
 
 function generatePassword() {
   var passwordLength = 0;
-  console.log("hello")
+ 
 
   while (passwordLength < 8 || passwordLength > 128) {
     passwordLength = parseInt(prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters: '));
