@@ -8,6 +8,7 @@ function writePassword() {
 
   passwordText.value = password;
 }
+// characters to include in options
 
 var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var lower = 'abcdefghijklmnopqrstuvwxyz';
