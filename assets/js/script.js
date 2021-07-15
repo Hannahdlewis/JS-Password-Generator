@@ -15,18 +15,36 @@ var num = '0123456789';
 var sym = '!@#$%&*()+=?/';
 
 function generatePassword() {
-  let passwordLength = window.prompt('Please choose the length of your password between 8 and 128 characters')
+var passwordLength = 0;
+console.log("hello")
 
-  passwordLength = parseInt
-
-  if(passwordLength < 8 || passwordLength > 129) {
-    console.log(passwordLength);
-  }
-  else if(passwordLength> 8 || passwordLength < 128) {
+while (passwordLength <8 || passwordLength > 128) {
+  passwordLength = parseInt(prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters: '));
+  
+   if(passwordLength < 8 || passwordLength > 128) {
     alert("Password must contain a minimum of 8 characters and a maximum of 128 characters")
   }
 }
 
+
+var confirmUpper = confirm("would you like uppercase letters?")
+var confirmLower= confirm("would you like lowercase letters?")
+var confirmNum = confirm("would you like numbers?")
+var confirmSym = confirm("would you like symbols?")
+
+var passwordOption = "";
+
+if(confirmUpper) {
+passwordOption =+ upper
+}
+
+if(confirmLower) {
+passwordOption =+ lower
+}
+
+
+}
+ 
 
 
 // when you click on the button it prompts you to..
@@ -38,31 +56,29 @@ function generatePassword() {
 // use a prompt to determine the lenfth of the password
 //between 8 and 128 characters
 
-var passwordLength = 0;
-passwordLength = prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters: ');
-passwordLength = parseInt(passwordLength)
+
+// passwordLength = prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters: ');
+// passwordLength = parseInt(passwordLength)
 
 //Continue to ask the question if user fails to meet password length criteria
 
-while (passwordLength <8 || passwordLength > 128) {
-  passwordLength = prompt('Please select a password length with a minimum of 8 characters and a maximum of 128 characters: ');
-}
+
 
 // PasswordArray created by running a random selector over the password character selelction array
 // in a loop of the password length
 
-var passwordArray = [];
-var i = 0;
-while (i<passwordLength) {
-  var randomChar = passCharSelectionArray[Math.floor(Math.random()*passCharSelectionArray.length)];
-  passwordArray.push(randomChar);
-  i++;
-}
+// var passwordArray = [];
+// var i = 0;
+// while (i<passwordLength) {
+//   var randomChar = passCharSelectionArray[Math.floor(Math.random()*passCharSelectionArray.length)];
+//   passwordArray.push(randomChar);
+//   i++;
+// }
 
 // Password being returned to the function call in the form of a string
 // This requires a conversion from an array to a string
 
-var passwordString = passwordArray.join("");
+// var passwordString = passwordArray.join("");
 
 // output password
 
