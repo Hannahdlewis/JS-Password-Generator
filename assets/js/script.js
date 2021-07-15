@@ -66,9 +66,5 @@ function getUserChoice(characterSet) {
 
 }
 
-// function checkUserChoice(checkChoice, characterSet) {
-//   while (userChoice = prompt('You must enter "Y"'))
-// }
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
