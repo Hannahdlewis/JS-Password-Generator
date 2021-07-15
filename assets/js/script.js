@@ -15,6 +15,8 @@ var lower = 'abcdefghijklmnopqrstuvwxyz';
 var num = '0123456789';
 var sym = '!@#$%&*()+=?/';
 
+// ensures user selects min & max number of characters
+
 function generatePassword() {
   var passwordLength = 0;
   console.log("hello")
